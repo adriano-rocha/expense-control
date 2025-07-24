@@ -1,0 +1,56 @@
+//import React from 'react'
+
+const Form = () => {
+  return (
+    <div className="bg-white rounded-lg shadow-md p-6 mb-8">
+      <h2 className="text-xl font-semibold text-gray-700 mb-4">
+        Adicionar Transação
+      </h2>
+
+      <form className="space-y-4">
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-2">
+            Descrição
+          </label>
+          <input
+            type="text"
+            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            placeholder="Ex: Aluguel, Salário, Conta de luz..."
+          />
+        </div>
+
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-2">
+            Valor
+          </label>
+          <input
+            type="number"
+            step="0.01"
+            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            placeholder="0,00"
+          />
+        </div>
+
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-2">
+            Tipo
+          </label>
+          <select className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <option value="">Selecione o tipo</option>
+            <option value="income">Receita</option>
+            <option value="expense">Despesa</option>
+          </select>
+        </div>
+
+        <button
+          type="submit"
+          className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition duration-200"
+        >
+          Adicionar Transação
+        </button>
+      </form>
+    </div>
+  );
+};
+
+export default Form;
