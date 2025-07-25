@@ -6,18 +6,14 @@ import "./index.css";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 p-8">
+    <div className="min-h-screen bg-gray-900 p-8">
       <div className="max-w-4xl mx-auto">
-        {/* Header */}
         <Header />
-        {/* Cards de Resumo */}
+
         <Summary />
 
-        {/* Área do Formulário */}
-        {/* Formulário de Transação */}
         <Form />
 
-        {/* Lista de Transações */}
         <List />
       </div>
     </div>
