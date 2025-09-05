@@ -17,6 +17,19 @@ O projeto já está disponível online através do link:
 
 ---
 
+
+
+## 🛠️ Tecnologias utilizadas
+
+- [React.js](https://react.dev/) – construção da interface
+- [Vite](https://vitejs.dev/) – ambiente de desenvolvimento
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) – estilização
+- [Vercel](https://vercel.com/) – deploy e hospedagem
+
+---
+
+## Estrutura do projeto
+
 ´´´
 expense-control/
 └── front/
@@ -29,15 +42,6 @@ expense-control/
     ├── package.json
     └── vite.config.js
 ´´´
-
-## 🛠️ Tecnologias utilizadas
-
-- [React.js](https://react.dev/) – construção da interface
-- [Vite](https://vitejs.dev/) – ambiente de desenvolvimento
-- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) – estilização
-- [Vercel](https://vercel.com/) – deploy e hospedagem
-
----
 
 ## 🚀 Como rodar localmente
 
