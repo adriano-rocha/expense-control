@@ -30,7 +30,7 @@ O projeto já está disponível online através do link:
 
 ## Estrutura do projeto
 
-´´´
+```
 expense-control/
 └── front/
     ├── public/
@@ -41,7 +41,7 @@ expense-control/
     │   └── main.jsx
     ├── package.json
     └── vite.config.js
-´´´
+```
 
 ## 🚀 Como rodar localmente
 
